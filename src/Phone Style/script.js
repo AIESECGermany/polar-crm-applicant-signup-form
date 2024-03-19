@@ -180,6 +180,12 @@ fetch('https://polarcrm-backend-bdek.onrender.com/applicants/new', {
   return res.json();
 })
 // .then(res => alert(res.message._id))
+.then(res =>{
+
+  window.location.href = "https://www.aiesec.de/mitgliedschaft-registrierung-erfolgreich/";
+  
+})
+
 .catch(err => {
   alert(err.message)
   console.log(err);

@@ -182,7 +182,7 @@ fetch('https://polarcrm-backend-bvbe.onrender.com/applicants/new', {
 // .then(res => alert(res.message._id))
 .then(res =>{
 
-  window.location.href = "https://www.aiesec.de/mitgliedschaft-registrierung-erfolgreich/";
+  window.location.href = "https://www.aiesec.de/mitgliederanmeldung-erfolgreich";
   
 })
 

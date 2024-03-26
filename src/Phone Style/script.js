@@ -165,7 +165,7 @@ checkboxes.forEach(cb => value.motivation.push(Boolean(value[cb]).toString()));
 
 console.log(value);
 
-fetch('https://polarcrm-backend-bvbe.onrender.com/applicants/new', {
+fetch('https://polar-backend.onrender.com/applicants/new', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
